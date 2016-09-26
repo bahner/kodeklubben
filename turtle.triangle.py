@@ -26,7 +26,12 @@ def draw_triangle(sidelength=10, colour='black'):
 COLOURS = ['green', 'red', 'blue', 'purple', 'yellow']
 
 if __name__ == '__main__':
+    # Increase the length of the triangle sides,
+    # from 100 to 250 increasing it by 50 each time around.
     for _l in range(100, 250, 50):
+        # For each triangle size (set by _l) draw it in one of the colours,
+        # put make the pensize smaller each time around, so we can
+        # see the colours.
         for _c in COLOURS:
             draw_triangle(_l, _c)
             PENSIZE -= 4
