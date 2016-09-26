@@ -15,7 +15,7 @@ def draw_line(length, colour='black'):
     forward(length)
 
 def draw_triangle(sidelength=10, colour='black'):
-    """Draws a triangle with gicen sidelength and colour"""
+    """Draws a triangle with given sidelength and colour"""
     for i in range(3): #pylint: disable=W0612
         draw_line(sidelength, colour)
         right(120)
