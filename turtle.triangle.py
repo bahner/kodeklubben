@@ -1,4 +1,8 @@
-"""Write my name with a turtle"""
+"""Write my name with a turtle
+
+The task was to write my name with a turtle, but I haven't learned how to "jump"
+yet. So I just make the program write funny triangles.
+"""
 #coding: utf-8
 
 from time import sleep
