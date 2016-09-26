@@ -4,7 +4,7 @@
 from time import sleep
 from turtle import * #pylint: disable=W0401,W0614
 
-PENSIZE=60
+PENSIZE = 60
 
 speed(11)
 pensize(PENSIZE)
